@@ -17,10 +17,13 @@ body {
 }
 .linkCenter {
   width: 100%;
+  font-size: 22px;
   text-align: center;
+  font-family: "Lexend Deca", sans-serif;
 }
 .linkCenter a {
   color: rgb(9, 9, 49);
+  text-decoration: underline;
 }
 .contentWrapper {
   max-width: 900px;
