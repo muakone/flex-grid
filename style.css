@@ -14,13 +14,14 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+.linkCenter {
+  text-align: center;
+}
 .contentWrapper {
   max-width: 900px;
   height: 75vh;
   display: flex;
   border-radius: 5px;
-  padding: 80px;
   margin: 0 auto;
   align-items: center;
   justify-content: center;
@@ -178,7 +179,7 @@ p {
 }
 @media (max-width: 425px) {
   .contentWrapper {
-    width: 450px;
+    width: 80%;
   }
   .first-column,
   .second-column,
