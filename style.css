@@ -13,10 +13,14 @@ body {
   background-color: var(--light-grey);
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 .linkCenter {
   width: 100%;
   text-align: center;
+}
+.linkCenter a {
+  color: rgb(9, 9, 49);
 }
 .contentWrapper {
   max-width: 900px;
@@ -100,7 +104,7 @@ p {
 
 /*Grid*/
 .grid-page {
-  width: 100vw;
+  width: 100%;
   box-sizing: border-box;
 }
 .grid {
